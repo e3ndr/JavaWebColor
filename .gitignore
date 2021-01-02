@@ -1,0 +1,8 @@
+.settings*
+target*
+.project
+.classpath
+config.json
+test.txt
+src/main/java/xyz/e3ndr/atto/Test.java
+test.yml
