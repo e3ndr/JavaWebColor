@@ -256,7 +256,7 @@ public class Color {
         return new ArrayList<>(cssColors.keySet());
     }
 
-    public static Color parseCSSColor(@NonNull String web) throws ColorException {
+    public static Color parseCSSColor(@NonNull String web) {
         try {
             String color = web.trim().toLowerCase();
 
